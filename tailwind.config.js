@@ -16,8 +16,7 @@ module.exports = {
       },
     },
     fontFamily: {
-      bodoni: "var(--font-bodoni-moda)",
-      passion: "var(--font-passions-conflict)",
+      bodoni_moda: ["Bodoni Moda", "sans-serif"],
     },
   },
 },

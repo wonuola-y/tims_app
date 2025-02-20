@@ -5,9 +5,13 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-    --font-bodoni-moda: "Bodoni Moda", serif;
-    --font-passions-conflict: "Passions Conflict", cursive;
+  --font-bodoni-moda: "Bodoni Moda", serif;
   
+}
+@font-face {
+  font-family: 'Bodoni Moda';
+  src: url("../public/fonts/Bodoni_Moda/BodoniModa-Italic-VariableFont_opsz\,wght.ttf") format('ttf'),
+  url('../public/fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz\,wght.ttf') format('ttf'),
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,8 +26,5 @@ body {
   background: var(--background);
 }
 h1{
-  font-family: var(--font-bodoni-moda);
-}
-i{
-  font-family: var(--font-passion-conflict);
+  font-family: "Bodoni Moda", serif
 }
