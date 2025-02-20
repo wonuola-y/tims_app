@@ -1,19 +1,7 @@
 import type { Metadata } from "next";
-import {  Bodoni_Moda, Passions_Conflict } from "next/font/google";
 import "./globals.css";
 
-const bodoniModa = Bodoni_Moda({
-  display: 'swap',
-  subsets: ["latin"],
-  variable: '--font-bodoni-moda'
-});
 
-export const passions_conf = Passions_Conflict({
-  subsets: ['latin'],
-  display: 'swap',
-  weight: '400', 
-  variable: '--font-passions-conflict'
-})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -28,7 +16,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${bodoniModa.variable}  ${passions_conf.variable}`}
       >
         {children}
       </body>
