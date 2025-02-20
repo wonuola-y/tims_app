@@ -17,5 +17,11 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-arimo);
+}
+h1{
+  font-family: var(--font-bodoni-moda);
+}
+i{
+  font-family: var(--font-passion-conflict);
 }
