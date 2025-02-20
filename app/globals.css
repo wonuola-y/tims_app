@@ -5,6 +5,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+    --font-bodoni-moda: "Bodoni Moda", serif;
+    --font-passions-conflict: "Passions Conflict", cursive;
+  
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,7 +20,6 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: var(--font-arimo);
 }
 h1{
   font-family: var(--font-bodoni-moda);

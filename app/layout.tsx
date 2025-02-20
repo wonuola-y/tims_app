@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Arimo, Bodoni_Moda, Passions_Conflict } from "next/font/google";
+import {  Bodoni_Moda, Passions_Conflict } from "next/font/google";
 import "./globals.css";
 
 const bodoniModa = Bodoni_Moda({
@@ -7,11 +7,7 @@ const bodoniModa = Bodoni_Moda({
   subsets: ["latin"],
   variable: '--font-bodoni-moda'
 });
-export const arimo = Arimo({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-arimo'
-})
+
 export const passions_conf = Passions_Conflict({
   subsets: ['latin'],
   display: 'swap',
@@ -32,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${bodoniModa.variable} ${arimo.variable} ${passions_conf.variable}`}
+        className={`${bodoniModa.variable}  ${passions_conf.variable}`}
       >
         {children}
       </body>

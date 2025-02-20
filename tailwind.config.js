@@ -15,6 +15,10 @@ module.exports = {
         "100%": { transform: "translateX(-100%)" },
       },
     },
+    fontFamily: {
+      bodoni: "var(--font-bodoni-moda)",
+      passion: "var(--font-passions-conflict)",
+    },
   },
 },
 
