@@ -20,7 +20,7 @@ const PersonalBrand: React.FC = () => {
         <div className=" w-100 md:p-20 h-screen ">
           <div className="w-100 flex flex-col md:flex-row  justify-between items-center">
             <div className="flex flex-col justify-center my-7 md:0 w-4/6 md:w-2/4  ">
-              <h1 className="font-bodoni_modatext-xl md:text-3xl text-center md:text-left md:leading-normal tracking-wide mt-4 uppercase pt-5 md:py-0">Personalized
+              <h1 className="text-xl text-black md:text-3xl text-center md:text-left md:leading-normal tracking-wide mt-4 uppercase pt-5 md:py-0">Personalized
                 Social Media Strategies Tailored for Your Success</h1>
               <p className="border-none border-b-black border-[1px] w-1/3 md:py-3"  ></p>
               <p className="text-gray-600 mt-5 text-center md:text-left">Write an attention-grabbing statement or simple phase about your business here</p>
